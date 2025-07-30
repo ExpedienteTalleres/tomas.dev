@@ -328,7 +328,7 @@ function Footer() {
                     <a href="#" className="opacity-80" style={{ transition: 'opacity 0.3s' }} onMouseOver={(e) => e.target.style.opacity = '1'} onMouseOut={(e) => e.target.style.opacity = '0.8'}>Twitter</a>
                 </div>
 
-                <p style={{ fontSize: '12px' }} className="opacity-60">© 2024 Tomás. Todos los derechos reservados.</p>
+                <p style={{ fontSize: '12px' }} className="opacity-60">© 2025 Tomás.</p>
 
                 <div style={{ marginTop: '16px', fontSize: '12px' }} className="opacity-40">
                     <p>{"> Sistema iniciado correctamente"}</p>
