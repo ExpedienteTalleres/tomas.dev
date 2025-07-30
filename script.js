@@ -159,7 +159,7 @@ function Projects() {
                             <div style={{ position: 'relative', overflow: 'hidden', marginBottom: '16px' }}>
                                 <div style={{ width: '100%', height: '192px', background: 'rgba(238, 238, 238, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px' }}>
                                     {project.id === 1 ? (
-                                        <img src="/Projects/Talleres.jpg" alt="Talleres" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                        <img src="Projects/Talleres.jpg" alt="Talleres" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                     ) : (
                                         'Imagen del Proyecto'
                                     )}
