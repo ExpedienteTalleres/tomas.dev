@@ -115,7 +115,7 @@ function About() {
                     <div className="text-xl space-y-6">
                         <p>{"> Inicializando perfil de desarrollador..."}</p>
                         <p>
-                            Soy un desarrollador Full Stack apasionado por crear experiencias digitales únicas y funcionales. Mi
+                            Soy un desarrollador apasionado por crear experiencias digitales únicas y funcionales. Mi
                             journey en el mundo de la programación comenzó con la curiosidad de entender cómo funcionan las cosas
                             detrás de la pantalla.
                         </p>
@@ -125,7 +125,7 @@ function About() {
                             la arquitectura de sistemas robustos.
                         </p>
                         <p>
-                            Cuando no estoy programando, me gusta explorar nuevas tecnologías, contribuir a proyectos open source y
+                            Cuando no estoy programando, me gusta explorar nuevas tecnologías, contribuir a proyectos y
                             mantenerme actualizado con las últimas tendencias del desarrollo web.
                         </p>
                         <p className="opacity-80">{"> Estado: Disponible para nuevos proyectos"}</p>
