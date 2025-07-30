@@ -55,11 +55,11 @@ function Header() {
 
 function Skills() {
     const technicalSkills = [
-        { name: "HTML", icon: "/Resources/html.png" },
-        { name: "CSS", icon: "/Resources/css.png" },
-        { name: "JavaScript", icon: "/Resources/javascript.png" },
-        { name: "React", icon: "/Resources/react.png" },
-        { name: "Python", icon: "./Resources/python.png" },
+        { name: "HTML", icon: "Resources/html.png" },
+        { name: "CSS", icon: "Resources/css.png" },
+        { name: "JavaScript", icon: "Resources/javascript.png" },
+        { name: "React", icon: "Resources/react.png" },
+        { name: "Python", icon: "Resources/python.png" },
     ];
 
     const softSkills = [
