@@ -1,6 +1,4 @@
 const { useState, useEffect } = React;
-
-// Header Component
 function Header() {
     const [displayText, setDisplayText] = useState("");
     const fullText = "Tomás Frini";
@@ -17,8 +15,6 @@ function Header() {
         }, 200);
         return () => clearInterval(timer);
     }, []);
-
-    // Generar posiciones y delays de píxeles flotantes solo una vez
     const floatingPixels = React.useMemo(() => (
         Array.from({ length: 20 }, () => ({
             left: `${Math.random() * 100}%`,
@@ -63,7 +59,7 @@ function Skills() {
         { name: "CSS", icon: "/Resources/css.png" },
         { name: "JavaScript", icon: "/Resources/javascript.png" },
         { name: "React", icon: "/Resources/react.png" },
-        { name: "Python", icon: "/Resources/python.png" },
+        { name: "Python", icon: "./Resources/python.png" },
     ];
 
     const softSkills = [
@@ -271,8 +267,6 @@ function Contact() {
                             <p style={{ fontSize: '14px' }} className="opacity-80">Disponible en formato PDF</p>
                         </div>
                     </div>
-
-                    {/* FORMULARIO DE CONTACTO */}
                     <div className="pixel-border p-6" style={{ background: 'rgba(4, 22, 43, 0.8)' }}>
                         <form onSubmit={handleSubmit}>
                             <div>
